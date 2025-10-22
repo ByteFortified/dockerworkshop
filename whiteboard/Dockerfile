@@ -21,7 +21,7 @@ RUN npm run build
 FROM node:18-alpine
 ENV NODE_ENV=prod
 
-LABEL maintainer="cracker0dks"
+LABEL maintainer="YOUR NAME"
 
 # Create app directory
 RUN mkdir -p /opt/app
